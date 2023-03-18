@@ -1,0 +1,95 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+i,
+span,
+a,
+input {
+    display: inline-block;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none !important;
+    &:hover {
+        text-decoration: none !important;
+    }
+}
+
+ul {
+    list-style: none;
+    li {
+        list-style: none;
+    }
+}
+
+button,
+textarea,
+input {
+    border: none;
+}
+
+button,
+input,
+textarea,
+select {
+    outline: none;
+    &:focus {
+        outline: none;
+    }
+}
+
+button,
+input,
+textarea,
+select {
+    font-family: "iran-yekan";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+    font-weight: 600;
+}
+
+a,
+a:not(href),
+button,
+select {
+    cursor: pointer;
+}
+
+.fa,
+.far,
+.fas,
+.fal,
+.fab {
+    vertical-align: -2px;
+}
+
+::placeholder {
+    color: $color-para;
+}
+
+textarea {
+    resize: none;
+}
+
+dl,
+ol,
+ul,
+p{
+    margin: 0;
+}

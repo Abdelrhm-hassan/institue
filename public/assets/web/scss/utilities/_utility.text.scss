@@ -1,0 +1,32 @@
+.text-center {
+    text-align: center;
+}
+
+.text-pink {
+    color: $color-primary;
+}
+
+.text-success {
+    color: #17c40b;
+}
+
+.text-danger {
+    color: #ff0000;
+}
+
+.text-info {
+    color: #0077ff;
+}
+
+.heading {
+    @include text-style($color-black, 27px);
+}
+
+.heading-white {
+    @include text-style($color-white, 27px);
+}
+
+.para {
+    @include text-style($color-para, 14px);
+    line-height: 28px;
+}

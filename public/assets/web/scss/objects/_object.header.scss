@@ -1,0 +1,177 @@
+.header {
+    height: 100vh;
+    max-height: 600px;
+    min-height: 500px;
+    @include bg-gradient(
+        url("../img/overlay.png") no-repeat,
+        left,
+        $color-primary,
+        $color-secondary
+    );
+    background-size: 100% 100%;
+    #menu-toggle-checkbox {
+        &:checked {
+            & ~ .header-m-menu .menu-toggle-btn {
+                @include set-transform(rotateZ(-180deg));
+                .line-1 {
+                    @include set-transform(rotateZ(-42deg));
+                }
+                .line-2 {
+                    @include set-transform(translateX(-40px));
+                    opacity: 0;
+                }
+                .line-3 {
+                    @include set-transform(rotateZ(42deg));
+                }
+            }
+            & ~ .header-menu-toggle {
+                right: 0;
+            }
+            & ~ #overlay {
+                display: block;
+            }
+        }
+    }
+    #overlay {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        height: calc(100vh - 89px);
+        width: 100%;
+        background: rgba($color: $color-black, $alpha: 0.5);
+        z-index: $zindex-4;
+        @include set-animation(fade-in, 0.5s);
+        display: none;
+    }
+    &-menu-toggle {
+        position: fixed;
+        bottom: 0;
+        right: -105%;
+        height: calc(100vh - 89px);
+        background: $color-white;
+        z-index: $zindex-5;
+        @include set-transition(0.5s);
+        padding: 20px;
+        @extend %shadow;
+        overflow-y: auto;
+        .brand {
+            img {
+                margin: 0 auto;
+            }
+        }
+        ul {
+            li {
+                margin-top: 20px;
+                a {
+                    @extend %link-hover;
+                    font-size: 16px;
+                    &:hover {
+                        padding-right: 8px;
+                    }
+                }
+            }
+        }
+    }
+    &-m-menu {
+        padding: 20px 0;
+        z-index: $zindex-5;
+        .container-fluid {
+            @include flex(space-between, center);
+        }
+        .menu-toggle-btn {
+            @include flex(space-around);
+            @extend %trans;
+            flex-direction: column;
+            height: 40px;
+            width: 40px;
+            margin: 0;
+            cursor: pointer;
+            .line {
+                background: $color-white;
+                @extend %w-fill;
+                @include set-transition(0.3s, all, 0.3s);
+                height: 3px;
+                transform-origin: right;
+            }
+        }
+    }
+    &-menu {
+        z-index: $zindex-5;
+        .container-fluid {
+            @include flex(space-between, center);
+        }
+        padding: 20px 0;
+        &-nav {
+            ul {
+                @include flex();
+                li {
+                    margin: 0 15px;
+                    a {
+                        @extend %link-hover-white;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        &-btns {
+            a {
+                @include text-style($color-white, 14px);
+                border: 1px solid $color-black;
+                background: $color-black;
+                padding: 8px 22px;
+                @extend %radius-lg, %trans;
+                &:hover {
+                    background: transparent;
+                    color: $color-black;
+                }
+            }
+        }
+    }
+    &-main {
+        height: calc(100% - 89px);
+        &-text {
+            h1 {
+                @include text-style($color-white, 35px);
+            }
+            p {
+                @include text-style($color-white, 16px);
+                margin-top: 10%;
+            }
+        }
+        .button-primary, 
+        .button-primary-outline{
+            margin-top: 5%;
+        }
+        &-vector {
+            @extend %fill;
+            background: url("../img/bg-header.png") no-repeat;
+            background-size: 100% 100%;
+        }
+    }
+}
+
+// fix navbar
+.fix-navbar {
+    .header-menu,
+    .header-m-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        @include gradient(left, $color-primary, $color-secondary);
+        @extend %shadow;
+        @include set-animation(fade-up, 0.75s);
+        // ul {
+        //     a {
+        //         color: $color-black;
+        //         &:hover {
+        //             color: $color-primary !important;
+        //         }
+        //     }
+        // }
+    }
+    .header-main {
+        padding-top: 89px;
+        height: 100%;
+    }
+}

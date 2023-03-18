@@ -1,0 +1,29 @@
+.btns {
+    @include flex(space-between);
+}
+
+.button-primary {
+    border: 3px solid $color-white;
+    background: $color-white;
+    @include text-style($color-primary, 16px);
+    padding: 10px 20px;
+    @extend %trans,
+    %radius-lg;
+    &:hover {
+        background: transparent;
+        color: $color-white;
+    }
+}
+
+.button-primary-outline {
+    border: 3px solid $color-white;
+    background: transparent;
+    @include text-style($color-white, 16px);
+    padding: 10px 20px;
+    @extend %trans,
+    %radius-lg;
+    &:hover {
+        background: $color-white;
+        color: $color-primary;
+    }
+}

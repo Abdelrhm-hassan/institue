@@ -1,0 +1,27 @@
+@mixin gradient($direction: right, $colors...) {
+    background: linear-gradient(to $direction, $colors);
+    background: -webkit-linear-gradient(to $direction, $colors);
+    background: -moz-repeating-linear-gradient(to $direction, $colors);
+    background: -o-repeating-linear-gradient(to $direction, $colors);
+}
+
+@mixin bg-gradient($bg, $direction: right, $colors...) {
+    background: $bg, linear-gradient(to $direction, $colors);
+    background: $bg, -webkit-linear-gradient(to $direction, $colors);
+    background: $bg, -moz-repeating-linear-gradient(to $direction, $colors);
+    background: $bg, -o-repeating-linear-gradient(to $direction, $colors);
+}
+
+@mixin gradient-bg($bg, $direction: right, $colors...) {
+    background: linear-gradient(to $direction, $colors), $bg;
+    background: -webkit-linear-gradient(to $direction, $colors), $bg;
+    background: -moz-repeating-linear-gradient(to $direction, $colors), $bg;
+    background: -o-repeating-linear-gradient(to $direction, $colors), $bg;
+}
+
+// @mixin gradient-bg($direction: right, $colors..., $bg) {
+//     background: $bg, linear-gradient(to $direction, $colors), $bg;
+//     background: $bg, -webkit-linear-gradient(to $direction, $colors), $bg;
+//     background: $bg, -moz-repeating-linear-gradient(to $direction, $colors), $bg;
+//     background: $bg, -o-repeating-linear-gradient(to $direction, $colors), $bg;
+// }

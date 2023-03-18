@@ -1,0 +1,312 @@
+@import "../fonts/helvetica/stylesheet.css";
+
+
+html{
+    font-size: .9rem;
+}
+body {
+    direction: ltr;
+    text-align: left;
+    font-family: "helveticaregular" !important;
+    font-weight: 300;
+    color: #242424;
+    text-transform: capitalize;
+    outline: none !important;
+}
+
+.container{
+    max-width: 1086px;
+}
+.box-shadow{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+a:hover{
+    text-decoration: none;
+}
+/*.....................................................................navbar.........................................*/
+.navbar-brand-ityp{
+    color: #FF5471!important;
+}
+.nav-item-nav .nav-link-nav{
+    color: #585858!important;
+}
+.nav-link-nav:hover{
+    color:#FF5471!important;
+}
+/*....................................................................back............................................*/
+.top-back{
+    background-image:url('../img/back.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 434px;
+    width: 100%!important;
+}
+.header{
+    color: white;
+}
+.header h1{
+    font-weight: bold;
+    font-size: 5rem;
+}
+.header h3{
+    font-weight: bold;
+    font-size:1.5rem;
+}
+.btn-header{
+    width: 94px;
+    border-radius: 30px;
+    margin-top: 3rem;
+}
+
+.btn-header:hover{
+    color:#FF5471 ;
+}
+.form-inline-search{
+    top: 410px;
+    left:270px ;
+}
+.form-inline-search input{
+    width: 498px!important;
+    border: none;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.btn-search{
+    border: none;
+    width: 40px;
+    color:#CACACA ;
+}
+.btn-search i{
+    color: #CACACA;
+    font-size: 1.2rem;
+}
+.btn-search:hover{
+    background: none!important;
+}
+.btn-search:hover i{
+    color:#FF5471 ;
+}
+::placeholder{
+    color: #CACACA!important;
+    font-size: 1.2rem!important;
+}
+/*....................................................................................................................*/
+.background{
+    background-image:url('../img/background.png') ;
+    background-repeat: no-repeat;
+    height: 434px;
+    background-position: top right;
+
+}
+.header-project h4{
+    font-size: 24px;
+    color: #CACACA;
+}
+.project{
+    width: 146px;
+    height: 136px;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: white;
+}
+.project img{
+    width: 80px;
+    transition: all 1s;
+}
+.project a:hover img{
+    transform: rotate(45deg);
+    transition: all 1s;
+}
+.btn-side{
+    width: 30px;
+    height: 136px;
+    border-right: 1px solid #CACACA;
+    padding-top: 55px;
+    padding-left: 0px;
+}
+.btn-side-right {
+    width: 30px;
+    height: 136px;
+    border-left: 1px solid #CACACA;
+    padding-top: 55px;
+    padding-right: 0px;
+}
+/*....................................................................................................................*/
+.background-2{
+    background-image:url('../img/background.png') ;
+    background-repeat: no-repeat;
+    background-position: top left;
+    height: 600px;
+}
+.bg-light-back {
+    background-color: #F8F8F8;
+    height: 227px;
+    width: 100%;
+}
+.bg-white-shadow{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    color: #707070;
+    border-radius: 30px;
+}
+.bg-white-shadow h3{
+    color: #707070;
+    font-weight: bold;
+    font-size: 31px;
+}
+.employment{
+    color:#CACACA ;
+}
+/*....................................................................................................................*/
+.triangle{
+    background-image:url('../img/Untitled-3.png') ;
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 1284px;
+}
+.margin-top{
+   margin-top: 150px;
+}
+.fa-comment-1{
+    font-size: 3rem;
+    color: #FF5471;
+}
+.Comments{
+    color: #FF5471;
+}
+.Comments h3{
+    font-weight: bold;
+}
+.box-comment{
+    border: 1px solid #CACACA;
+    border-radius: 60px;
+}
+.Comments p{
+    line-height: 2;
+    color: #707070;
+}
+.p-comment{
+    color: #707070;
+}
+.h4-comment{
+    color: #FF5471;
+}
+.img img{
+    width: 115px!important;
+    border-radius: 50%;
+}
+/*..........................................................blog......................................................*/
+.p-blog{
+    color: #707070;
+}
+.card-blog{
+    border:none;
+    width: 19rem;
+}
+.card-blog h5{
+    color: #FF5471!important;
+}
+.btn-blog{
+    background: transparent;
+    border: 1px solid #FF5471;
+    border-radius: 30px;
+    color: #FF5471;
+    font-size: 0.9rem;
+    font-weight: bold;
+
+}
+.btn-blog:hover{
+    color: white;
+    background-color:#FF5471 ;
+}
+.between{
+    width: 1px;
+    height: 19rem;
+   background: #CACACA!important;
+
+}
+.under-line{
+    width: 100%;
+    height: 1px;
+    background: #CACACA!important;
+    display: block;
+}
+/*............................................................customer................................................*/
+.btn-side-2{
+    border: none;
+}
+.btn-side-right-2{
+    border: none;
+}
+.project-2{
+    border-radius: 50%;
+}
+.header-customer h4{
+    color: #707070;
+}
+small{
+    color: #CACACA!important;
+}
+/*............................................................footer..................................................*/
+.footer{
+    background-color: #FBFBFB;
+    color: #707070;
+}
+.logo-footer span{
+    font-size: 40px;
+    color: #FF5471;
+}
+.margin-top-footer{
+    margin-top: 32px;
+}
+.footer-icon img{
+    width: 1.2rem;
+}
+.footer-p{
+    font-size: 1.1rem;
+}
+.a-footer{
+    color: #707070;
+    font-size: 0.8rem;
+}
+.a-footer:hover{
+    color: #FF5471;
+}
+.logo-footer-end{
+    font-size: 1.2rem;
+    color: #FF5471;
+}
+.footer-end{
+    width: 1px;
+    height: 1.3rem;
+    background-color: #CACACA;
+    display: inline-block;
+    top: 3px;
+    left: 70px;
+}
+.employment-img{
+    width: 85px;
+    height: 65px;
+}
+/*.............................................................................*/
+.scrollmenu{
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    width: 40px !important;
+    height: 40px !important;
+    color: #0b0b0b !important;
+    top: 55% !important;
+}
+
+.swiper-button-next{
+    right: -40px !important;
+}.swiper-button-prev{
+     left: -40px !important;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+    font-size: 20px !important;
+}
+
+

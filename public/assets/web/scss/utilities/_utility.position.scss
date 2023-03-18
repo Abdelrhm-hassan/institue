@@ -1,0 +1,18 @@
+%absolute-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+%absolute-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+%absolute-center {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}

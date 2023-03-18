@@ -1,0 +1,78 @@
+
+.footer {
+    &-newsletter {
+        .form-header {
+            @include flex(space-between);
+            h5 {
+                @include text-style($color-para, 18px);
+            }
+            button {
+                padding: 5px 20px;
+                @include text-style($color-primary, 16px);
+                border: 1px solid $color-primary;
+                background: transparent;
+                @extend %radius-lg, %trans;
+                &:hover {
+                    background: $color-primary;
+                    color: $color-white;
+                }
+            }
+        }
+        .form-item {
+            margin-top: 15px;
+            input,
+            textarea {
+                background: $color-tertiary;
+                @include text-style($color-black, 14px);
+                @extend %radius-lg, %w-fill, %trans;
+                padding: 10px 15px;
+                &:focus {
+                    @extend %shadow;
+                }
+            }
+        }
+    }
+    &-contact {
+        h5 {
+            @include text-style($color-para, 18px);
+        }
+        &-item {
+            .title {
+                @include text-style($color-para, 14px);
+            }
+            .text {
+                margin-top: 5px;
+                @include text-style($color-black, 14px);
+            }
+            .social {
+                margin-top: 5px;
+                a {
+                    @include text-style($color-black, 20px);
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+    &-about {
+        p {
+            @include text-style($color-black, 14px);
+            line-height: 25px;
+        }
+    }
+    &-copyright {
+        background: $color-tertiary;
+        &-section {
+            @include flex(space-between, center);
+            .text,
+            .date {
+                @include text-style($color-black, 14px);
+            }
+            .text{
+                a{
+                    @extend %link-hover;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

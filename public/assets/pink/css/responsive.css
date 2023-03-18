@@ -1,0 +1,153 @@
+@media (max-width: 1200px){
+    .triangle{
+        background-image:url('../img/bbb.png') ;
+        background-repeat: no-repeat;
+        background-position: top right;
+        height: 1200px;
+    }
+}
+@media (max-width: 1030px){
+    .container{
+        width: 1000px;
+    }
+    .form-inline-search{
+        left: 237px;
+    }
+    .triangle{
+        background-image:url('../img/bbbb.png') ;
+        background-repeat: no-repeat;
+        background-position: top right;
+        height: 1200px;
+    }
+}
+@media (max-width: 770px){
+    .container{
+        max-width: 700px!important;
+    }
+    .form-inline-search{
+        left: 77px;
+    }
+    .card-text{
+        font-size: 0.9rem;
+    }
+    .project{
+        width: 135px;
+        height: 135px;
+    }
+    .background{
+        height: auto;
+    }
+    .triangle{
+        height: auto !important;
+    }
+    .card-blog{
+        width: 100%;
+    }
+    .header h1{
+        font-size: 4rem;
+    }
+}
+@media (max-width: 550px){
+    .navbar{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .container{
+        max-width: 500px!important;
+    }
+    .form-inline-search{
+        left: 0px;
+    }
+    .form-inline-search input{
+        width: 450px!important;
+    }
+    .btn-header{
+        margin-top: 3rem;
+    }
+    .employment p{
+        font-size: 0.8rem;
+    }
+    .h4-comment{
+        color: #707070;
+    }
+    .btn-side{
+        border: none;
+    }
+    .btn-side-right{
+        border: none;
+    }
+    .triangle{
+        background-image: none;
+    }
+    .margin-top-blog{
+        margin-top: 50px;
+    }
+    .margin-top-customer{
+        margin-top: 0px!important;
+    }
+
+    .box-comment{
+        border-radius: 10px;
+    }
+
+    .swiper-button-next{
+        right: 0px !important;
+    }.swiper-button-prev{
+         left: 0px !important;
+     }
+
+     .top-back{
+         height: auto;
+         padding-bottom: 18px;
+     }
+}
+@media (max-width: 505px){
+    .container{
+        max-width: 480px!important;
+    }
+    .form-inline-search{
+        left: 20px;
+    }
+    .form-inline-search input{
+        width: 400px!important;
+    }
+}
+@media (max-width: 430px){
+    .container{
+        max-width:400px!important;
+    }
+    .form-inline-search{
+        left: 0px;
+    }
+    .form-inline-search input{
+        width: 340px!important;
+    }
+
+
+}
+@media (max-width: 365px){
+    .container{
+        max-width: 350px!important;
+    }
+    .form-inline-search input{
+        width: 296px!important;
+    }
+    .top-back{
+        width: 100% !important;
+    }
+
+    .background{
+        width: 300px;
+    }
+    .background-2{
+        width: 300px;
+    }
+    .margin-top-customer{
+        margin-top: 50px!important;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,69 @@
+@media only screen and (max-width: $bp-xxs) {
+    .header-menu-toggle {
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: $bp-xs) {
+    .header{
+        max-height: 450px !important;
+        min-height: 400px !important;
+    }
+    .header-main-text {
+        margin-top: 8%;
+    }
+    .button-primary,
+    .button-primary-outline {
+        font-size: 13px !important;
+    }
+    .heading,
+    .heading-white {
+        font-size: 20px !important;
+    }
+    .header-main-text h1 {
+        font-size: 25px !important;
+    }
+    .footer-copyright {
+        .text {
+            width: 100%;
+        }
+    }
+    .header-menu-toggle {
+        width: 80%;
+    }
+    .projects-item{
+        h5{
+            font-size: 14px !important;
+        }
+    }
+}
+@media only screen and (min-width: $bp-sm) {
+    .header-main-text {
+        margin-top: 8%;
+    }
+    .footer-copyright {
+        .text {
+            width: 100%;
+        }
+    }
+
+    .header-menu-toggle {
+        width: 50%;
+    }
+}
+@media only screen and (min-width: $bp-md) {
+    .featuere-text {
+        padding: 20% 0;
+    }
+    .footer-copyright {
+        .text {
+            width: auto;
+        }
+    }
+}
+@media only screen and (min-width: $bp-lg) {
+    .header-main-text {
+        margin-top: 20%;
+    }
+}
+@media only screen and (min-width: $bp-xl) {
+}

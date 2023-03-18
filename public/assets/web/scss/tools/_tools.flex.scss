@@ -1,0 +1,10 @@
+@mixin flex($justify:none, $align:none) {
+    display: flex;
+    flex-wrap: wrap;
+    @if $justify !=none {
+        justify-content: $justify;
+    }
+    @if $align !=none {
+        align-items: $align;
+    }
+}

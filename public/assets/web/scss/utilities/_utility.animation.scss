@@ -1,0 +1,22 @@
+%trans {
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+}
+
+%link-hover {
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    color: $color-black;
+    &:hover {
+        color: $color-primary !important;
+    }
+}
+
+%link-hover-white {
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    color: $color-white;
+    &:hover {
+        color: $color-black !important;
+    }
+}

@@ -1,0 +1,578 @@
+html{
+    font-size: .9rem;
+}
+@media(min-width:768px){
+    html{
+        font-size: 1rem;
+    }
+}
+
+body{
+    direction: rtl;
+    text-align: right;
+    font-family: IRANYekanRegular;
+    font-weight: 300;
+}
+.container-fluid{
+    max-width: 1500px;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 35px;
+    color: #515151;
+}
+/* .............main header...............*/
+.btn-header{
+    width: 190px;
+    height: 48px;
+    border-radius: 11px;
+    color: #515151;
+}
+.btn-header label{
+    top: -7px;
+}
+.btn-header:hover{
+    background-color: transparent;
+    color: white;
+}
+.btn-header-dark{
+    background-color: #434343;
+}
+.fa-user-circle{
+    font-size: 30px;
+    top: 5px;
+}
+.fa-shopify{
+    font-size: 30px;
+    top: 5px;
+}
+#shop-number{
+    padding: 0px 6px;
+    background-color: #FF855A;
+    border-radius: 30%;
+}
+.btn-outline-light{
+    text-align: center;
+    vertical-align: center;
+
+}
+.main-header{
+    background-image:url('../img/header.jpg') ;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-dark{
+    background-color:transparent !important;
+    height: 80px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: black;
+    margin-left: 40px;
+    font-size: 18px;
+    font: bold;
+}
+
+.header-btn .btn-danger{
+    background: linear-gradient(45deg,#ff855a, #ff685b);
+    border: none;
+    width: 170px;
+    height: 40px;
+}
+.btn:not(:disabled):not(.disabled){
+    font-family:IRANYekanRegular ;
+    font-size: 16px;
+    font: bold !important;
+}
+
+.padding{
+    padding: 150px 75px;
+}
+.heading-text h2{
+    color: black;
+    font: bold;
+    font-size: 3rem !important;
+    padding-bottom:40px;
+}
+
+.heading-text span{
+    color: #ff815a;
+}
+.heading-text p{
+    color: black;
+    font: bold;
+    font-size: 20px;
+    line-height: 2.2;
+    padding-bottom: 40px;
+
+}
+
+.heading-text .btn-danger{
+    background: linear-gradient(45deg,#ff855a, #ff685b);
+    border: none;
+    width: 170px;
+    height: 40px;
+}
+.heading-text .btn-light{
+
+    background:rgba(255, 255, 255,0.1);
+    border: none;
+    width: 170px;
+    height: 40px;
+    color: white;
+
+}
+
+
+
+/*.............main-section...........*/
+
+.main-section{
+    background-image:url('../ig/Vector\ Smart\ Object\ copy.pngm') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+h5{
+    font-family: IRANYekanBold;
+}
+.card{
+    border-radius:20px;
+}
+.card-2{
+    border: white 2px solid;
+}
+.project-ityp{
+    font-size: 1.3rem;
+}
+
+
+.card-img-top{
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+}
+.card-img-top {
+    width: 140px;
+    height: 140px;
+    margin: 25px auto 0;
+    padding: 20px
+}
+.project-ityp .card{
+    background-image: url("../img/social_card_bg.png");
+    background-position: top -30px right -30px;
+    background-repeat: no-repeat;
+}
+.project-ityp .card:hover {
+    background-image: none;
+    background-color: #0290D5 !important;
+    transition: all 1s;
+    color: white;
+}
+.project-ityp .card{
+    width: 252px;
+    height: 252px;
+}
+
+.card-img-top2{
+    width: 100% !important;
+    height: auto !important;
+    margin-top: 0 !important;
+}
+
+
+/*................main-section-2..............*/
+
+.main-section-2{
+    background-image:url('../img/main-section-2.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.btn-main-section-2{
+    background-color: #E3E3E3;
+    color: #424750;
+    padding: 15px 30px;
+    width: 220px;
+    border-radius: 10px;
+}
+.btn-main-section-2:hover {
+    background-color: #515151;
+    border: #515151;
+    box-shadow: 0 .50rem .90rem rgba(0, 0, 0, .08);
+    color: white;
+}
+.p-main-section-2{
+    line-height: 3.5rem;
+}
+
+/*........... باکس نظرات کاربران...........*/
+
+
+.main-section-3{
+    background: rgb(80,80,80);
+    background: linear-gradient(90deg, rgba(80,80,80,1) 0%, rgba(69,69,69,1) 50%, rgba(58,58,58,1) 100%);
+    border-radius: 20px;
+    height: 430px;
+}
+
+.main-section-3 h5{
+    color: white;
+}
+
+.fa-star{
+    color:gold;
+}
+.main-section-3 p{
+    color: white;
+    font-family:IRANYekanRegular ;
+    line-height: 2.2rem;
+    padding-bottom: 10px;
+}
+.main-section-chat img{
+    width: 100px;
+    height: 100px;
+
+}
+.span-number label{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #A1A3A8;
+}
+.span-number label:hover{
+    background-color: #FF855A;
+}
+
+
+
+
+
+
+/*........... باکس  ...........*/
+.statistics{
+    background-image:url('../img/Group.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.8rem;
+}
+
+
+.statistics:hover{
+    background-image: none;
+    transition: all 1s!important;
+    background-color: #FF855A;
+    color: white!important;
+    border: white;
+    box-shadow: 0 .50rem .90rem rgba(0, 0, 0, .08);
+}
+/*....................main-section-5............*/
+.main-section-5{
+    background-image:url('../img/bg.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-img-top2{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+/*........... دانلود نرم افزار مجازی شو  ...........*/
+
+
+.h5-m{
+    font-size: 30px;
+}
+.p-m{
+    line-height: 2.2rem;
+}
+.pictur-download{
+    width: 200px;
+    height: 55px;
+}
+
+/*............برخی از مشتریان ما.............*/
+.customer{
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    background-color: #f8f8f8 !important;
+    text-align: center;
+    transition: all 1s;
+}
+.customer:hover{
+    transform: rotate(10deg);
+    transition: all 1s;
+}
+
+
+
+.customer:hover img{
+    filter: none;
+}
+.customer img{
+    width: 100px;
+    filter: grayscale(90%);
+    transition: all 1s;
+    margin: 25px auto 0;
+    display: block;
+}
+.customer img:hover{
+    filter: none;
+    transition: all 1s;
+}
+
+/*........... footer  ...........*/
+.title-prefix1{
+    position: relative;
+    top: 7px;
+}
+.title-prefix1 label:first-child{
+    display: inline-block;
+    background-color: #515151;
+    border-radius: 4px;
+    width: 15px;
+    height: 4px;
+}
+.title-prefix1 label:last-child{
+    display: inline-block;
+    background-color: #FF855A;
+    width: 8px;
+    height: 4px;
+    border-radius: 5px;
+    margin-right: 3px;
+}
+
+.description-class{
+    line-height: 250%;
+}
+
+
+.img-samandehi{
+    width: 300px;
+    height: auto;
+}
+
+.none-decoration a{
+    color: white;
+}
+ul li a {
+    color: #424750;
+}
+
+.box-img{
+    background-color: rgba(239, 239, 239,1);
+    border-radius: 20px;
+    position: relative;
+    width: 300px;
+    height: 170px;
+}
+
+.box-img a img{
+    width:150px;
+    height: 160px;
+    margin: 0 auto 0;
+    position: absolute;
+    top: 4px;
+    left: 3px;
+}
+.list-style {
+
+    line-height: 2.4;
+
+}
+
+.pictur-download1{
+    width: 150px;
+    line-height: 30px;
+}
+.footer-img{
+    height: 160px;
+}
+p.p-footer{
+    line-height: 2.2;
+}
+.bg-end-footer{
+    background-color: #515151;
+    color: white!important;
+}
+.fab-footer{
+    font-size: 30px;
+    color: #707070;
+}
+.fab-footer:hover{
+    color: white;
+}
+.fa-circle{
+   font-size: 10px;
+    color: #CBCBCB;
+    transition: all 1s;
+}
+a:hover .fa-circle{
+    color: tomato;
+    transition: all 1s;
+}
+
+    /*.............................زیبایی...........*/
+
+a{
+    color: #424750;
+    transition: all 1s;
+}
+a:hover{
+    color: tomato;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+.box-shadow{
+    box-shadow: 0 .50rem .90rem rgba(0, 0, 0, .08);
+}
+
+.box-shadow-footer{
+    -webkit-box-shadow: -2px -14px 24px 0px rgba(0,0,0,0.1);
+    box-shadow: -2px -14px 24px 0px rgba(0,0,0,0.1);
+}
+
+.is-sticky .bg-dark{
+    background-color: rgba(0,0,0,0.9) !important;
+    z-index: 9999999999 !important;
+}
+.is-sticky .bg-dark a{
+    color: white!important;
+}
+.is-sticky .btn-header{
+    color: white;
+}
+
+.pictur-download{
+    transition: all 1s;
+}
+.pictur-download:hover{
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+.btn-danger:hover{
+    transition: all 500ms;
+    box-shadow: rgba(255, 130, 90, 0.5) 5px 2px 8px 5px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: tomato;
+}
+
+.comment{
+    width: 400px;
+    margin-left: 18px;
+}
+
+.comment-items .card{
+    transition: all 1s;
+}
+.comment-items .rounded-circle{
+    border: 3px solid white;
+}
+.comment-items .card:hover{
+    background-color: tomato !important;
+    transition: all 1s;
+    color: white;
+}
+.comment-items .card:hover .text-muted{
+    color: white !important;
+    transition: all 1s;
+}
+.active-comments .card{
+    background-color: tomato !important;
+    transition: all 1s;
+    color: white;
+}
+.active-comments .card .text-muted{
+    color: white !important;
+}
+
+.title-prefix{
+    position: relative;
+    top: 7px;
+}
+.title-prefix label:first-child{
+    display: inline-block;
+    background-color:#8D8D8D;
+    border-radius: 4px;
+    width: 315px;
+    height: 4px;
+}
+.title-prefix label:last-child{
+    position: absolute;
+    display: inline-block;
+    background-color: white;
+    border: #FF835A 2px solid;
+    border-radius: 50px;
+    width: 15px;
+    height:15px;
+    border-radius: 50px;
+    left: 150px;
+
+}
+
+.footer-menu li{
+    font-size: .9em;
+    margin-top: 6px;
+}
+.pictur-download1{
+    transition: all 1s;
+}
+.pictur-download1:hover{
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+.navbar-custom li a{
+    position: relative;
+    top: -13px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 16px;
+    border-top: 4px solid transparent;
+}
+
+.navbar-custom li a:hover{
+    border-color: tomato;
+    transition: all 1s;
+}
+
+.card-content{
+    min-width: 300px;
+}
+
+.owl-dots{
+    text-align: center;
+    padding-top: 20px;
+}
+.owl-dots button{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+.owl-dots button.active span{
+    background-color: tomato;
+}
+.owl-dots button span{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #A1A3A8;
+    display: block;
+}
+
+.modal-content{
+    border: 4px solid #F12874;
+}
+.modal-header .close {
+    padding: 1rem 1rem;
+    margin: -1rem auto -1rem -1rem;
+}
+

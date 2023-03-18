@@ -1,0 +1,234 @@
+.statistics {
+    background: $color-tertiary;
+    .container-fluid {
+        max-width: 1300px;
+    }
+    &-item {
+        background: $color-white;
+        @extend %radius-md, %shadow, .text-center;
+        padding: 20px 10px;
+        h5 {
+            @include text-style($color-black, 16px);
+        }
+        p {
+            @include text-style($color-para, 23px);
+            margin: 20px 0 30px 0;
+            font-weight: 600;
+            span {
+                color: $color-primary;
+                &.price {
+                    @include text-style($color-black, 12px);
+                    font-weight: unset;
+                }
+            }
+        }
+    }
+}
+
+.projects {
+    &-item {
+        @include flex(none, center);
+        flex-direction: column;
+        .img-wapper {
+            border: 5px solid $color-tertiary;
+            padding: 10px 15px;
+            @extend %radius-md;
+            height: 82px;
+            @include flex(center, center);
+            img {
+                width: 48px;
+            }
+        }
+        h5 {
+            @include text-style($color-black, 16px);
+            margin-top: 10px;
+        }
+        p {
+            @include text-style($color-para, 12px);
+            line-height: 20px;
+        }
+    }
+}
+
+.featuere {
+    background: $color-tertiary;
+    &-text {
+        p {
+            margin-top: 20px;
+        }
+    }
+    &-vector-1 {
+        background: url("../img/bg-featuere-1.png") center no-repeat;
+    }
+    &-vector-2 {
+        background: url("../img/bg-featuere-2.png") center no-repeat;
+    }
+    &-vector-3 {
+        background: url("../img/bg-featuere-3.png") center no-repeat;
+    }
+    &-vector-1,
+    &-vector-2,
+    &-vector-3 {
+        background-size: contain;
+        @extend %fill;
+    }
+}
+
+.events {
+    background: url("../img/bg-events.png") no-repeat -150% 0,
+        url("../img/bg-events.png") no-repeat 250% 0;
+    background-size: 80% 500px;
+    &-item {
+        background: $color-white;
+        @extend %radius-md, %shadow, %trans;
+        padding: 5px;
+        border: 1px solid transparent;
+        &:hover {
+            border: 1px solid $color-black;
+            box-shadow: none;
+        }
+        .user-info,
+        .para,
+        .state,
+        .datetime {
+            @include flex(none, center);
+            @extend .h-fill;
+        }
+        .user-info {
+            .avatar {
+                margin-left: 10px;
+                img {
+                    width: 57px;
+                    height: 57px;
+                    @extend %radius-md;
+                }
+            }
+        }
+    }
+}
+
+.customers {
+    &-item {
+        @include flex(none, center);
+        @extend .h-fill;
+        img {
+            max-width: 100%;
+            margin: auto;
+        }
+    }
+}
+
+.last-articles {
+    background: $color-tertiary;
+    &-item {
+        height: 100%;
+        background: $color-white;
+        border-radius: 10px;
+        @extend %trans;
+        &:hover {
+            @extend %shadow;
+        }
+        .img-wapper,
+        .img-wapper img {
+            @extend %w-fill;
+            border-radius: 10px 10px 0 0;
+        }
+        .img-wapper {
+            overflow: hidden;
+            &:hover {
+                img {
+                    @include set-transform(scale(1.15));
+                }
+            }
+            img {
+                @extend %trans;
+                // height: 268px;
+            }
+        }
+        .datetime {
+            @include flex(space-between);
+            padding: 10px;
+            span {
+                @include text-style($color-para, 12px);
+            }
+        }
+        .title {
+            padding: 0 15px;
+            a {
+                @extend %link-hover;
+                font-size: 16px;
+            }
+        }
+        .description {
+            padding: 10px;
+            @include text-style($color-para, 13px);
+        }
+    }
+    .more-article-btn {
+        padding: 12px 24px;
+        background: $color-white;
+        @include text-style($color-black, 16px);
+        @extend %radius-lg, %trans;
+        &:hover {
+            @extend %shadow;
+        }
+        i {
+            color: $color-primary;
+        }
+    }
+}
+
+.order {
+    @include bg-gradient(
+        url("../img/overlay.png") no-repeat,
+        left,
+        $color-primary,
+        $color-secondary
+    );
+    background-size: 100% 100%;
+}
+
+.license {
+    &-item {
+        img {
+            max-width: 100%;
+            margin: auto;
+        }
+    }
+}
+
+.comments {
+    background: $color-tertiary;
+    &-item {
+        background: $color-white;
+        @extend %radius-md, %trans, %shadow;
+        padding: 20px;
+        height: 224px;
+        &-header {
+            span {
+                @include text-style($color-para, 14px);
+            }
+            i {
+                margin-left: 5px;
+            }
+        }
+        &-body {
+            margin: 15px 0;
+            height: 110px;
+            overflow-y: hidden;
+            p {
+                @include text-style($color-black, 15px);
+                line-height: 22px;
+            }
+        }
+        &-footer {
+            span {
+                @include text-style($color-para, 14px);
+            }
+        }
+    }
+}
+
+.row {
+    overflow: hidden;
+}

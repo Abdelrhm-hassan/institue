@@ -1,0 +1,17 @@
+@mixin set-transform($value...) {
+    transform: $value;
+    -webkit-transform: $value;
+    -moz-transform: $value;
+}
+
+@mixin set-transition($duration:0.3s, $selector:all, $delay:0s) {
+    transition: $selector $duration linear $delay;
+    -webkit-transition: $selector $duration linear $delay;
+}
+
+@mixin set-animation($animation, $duration:0.5s, $delay: 0s) {
+    animation: $animation $duration $delay;
+    -webkit-animation: $animation $duration $delay;
+    -moz-animation: $animation $duration $delay;
+    -o-animation: $animation $duration $delay;
+}
